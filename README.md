@@ -1,6 +1,6 @@
 ### Data Masking Utilities ###
 This Python utility utilizes "fake-factory" module to generate fake name, address, phones, and other personal information.   
-More info here: []https://fake-factory.readthedocs.io/en/v0.4/index.html#
+More info here: https://fake-factory.readthedocs.io/en/v0.4/index.html#
 
 ####Python Runtime Requirements:####
 * Python3
