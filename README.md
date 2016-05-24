@@ -9,8 +9,8 @@ More info here: https://fake-factory.readthedocs.io/en/v0.4/index.html#
 * pip3 install fake-factory
 
 ####Execution:####
-1. Running the following script will take data from /data/demographics.csv and mask all the fields with fake values. 
+* Running the following script will take data from /data/demographics.csv and mask all the fields with fake values. 
 first name is generated based on the gender of the original record, birth date will be shift by 10 days.
-> python3 DemographisMasking.py
-2. Running the following script will generate random demographics data
-> python3 DemographicsGenerator.py
+** python3 DemographisMasking.py
+* Running the following script will generate random demographics data
+** python3 DemographicsGenerator.py
