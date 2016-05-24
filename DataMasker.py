@@ -18,6 +18,9 @@ def generate_uuid() :
 def generateSSN() :
     return fake.ssn()
 
+def generateCreditCardNumber() :
+    return fake.credit_card_number();
+
 def add_days(startdate, days):
   return startdate + datetime.timedelta(days=days)
 
@@ -39,12 +42,15 @@ def generateAddress() :
         address["postalCode"] = cityStateZip[2]
     return address
 
-def generateName(gender):
+def generateName(gender=None):
     name = {}
-    if gender == 'Male':
-        name['firstName'] = fake.first_name_male()
-    else:
-        name['firstName'] = fake.first_name_female()
+    if gender is None:
+        name['firstName'] = fake.first_name()
+    else :
+        if gender == 'Male':
+            name['firstName'] = fake.first_name_male()
+        else:
+            name['firstName'] = fake.first_name_female()
     name["lastName"] = fake.last_name()
     return name
 
