@@ -48,6 +48,6 @@ def main(records):
 
 if __name__ == "__main__":
     records = 100
-    print('Generating %d records', records)
+    print('Generating %d records'% records)
     main(records)
 
