@@ -2,3 +2,4 @@
 **/__pycache__/*
 *Masked.csv
 *Data.csv
+**/*.pyc
